@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SecurityKpi.Lab1\SecurityKpi.Lab1.csproj" />
+      <ProjectReference Include="..\SecurityKpi.Lab4\SecurityKpi.Lab4.csproj" />
+    </ItemGroup>
+
+</Project>
